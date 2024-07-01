@@ -9,7 +9,7 @@ function App() {
     <div className="App">
       <NavBar />
       <div style={{ minHeight: '90vh' }}>
-        <Router basename={ process.env.PUBLIC_URL }>
+        <Router basename={process.env.PUBLIC_URL}>
           <Routes>
             <Route path="/" element={<LandingPage />} />
             <Route path="/bestseller/:category" element={<BestRanking />} />

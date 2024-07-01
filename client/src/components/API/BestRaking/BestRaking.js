@@ -23,7 +23,7 @@ const BestRanking = () => {
       {/* 프린트북랭킹/서점랭킹 버튼 */}
       <div style={{ margin: '30px auto', textAlign: 'center' }}>
         <div>
-          <a href="/bestseller/PrintBookRaking">
+          <Link to="/bestseller/PrintBookRaking">
             <Button
               type="primary"
               shape="round"
@@ -37,8 +37,8 @@ const BestRanking = () => {
               }}>
               프린트북 랭킹
             </Button>
-          </a>
-          <a href="/bestseller/BookStoreRaking">
+          </Link>
+          <Link to="/bestseller/BookStoreRaking">
             <Button
               type="primary"
               shape="round"
@@ -52,7 +52,7 @@ const BestRanking = () => {
               }}>
               서점 랭킹
             </Button>
-          </a>
+          </Link>
         </div>
       </div>
 
